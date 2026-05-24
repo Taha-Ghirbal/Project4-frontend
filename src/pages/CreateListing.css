@@ -1,0 +1,6 @@
+:root{--bg:#0b0f14;--card:#1b2226;--text:#f5f2ee;--muted:#9aa3ad;--accent:#cba135}
+.create-page{min-height:80vh;padding:40px 0}
+.create-card{max-width:760px;margin:0 auto}
+.create-card .card{padding:20px;border-radius:12px}
+.create-card input,.create-card textarea{width:100%;padding:0.6rem;margin-bottom:0.6rem;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text)}
+.create-card button{background:var(--accent);color:white;padding:0.7rem 0.9rem;border-radius:10px;border:none}

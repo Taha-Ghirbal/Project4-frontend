@@ -1,0 +1,6 @@
+:root{--bg:#0b0f14;--card:#1b2226;--text:#f5f2ee;--muted:#9aa3ad;--accent:#cba135}
+.list-page{min-height:80vh;padding:40px 0}
+.list-card{max-width:980px;margin:0 auto}
+.listing-item{display:flex;justify-content:space-between;padding:0.8rem;border-bottom:1px solid rgba(255,255,255,0.03)}
+.listing-item a{color:var(--text);text-decoration:none}
+.muted{color:var(--muted)}

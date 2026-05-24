@@ -1,0 +1,19 @@
+:root{
+  --bg:#0b0f14;
+  --card:#1b2226;
+  --card:#111827;
+  --muted:#94a3b8;
+  --accent:#cba135;
+  --accent-2:#06b6d4;
+  --text:#e6eef6;
+}
+
+.page{
+  min-height:80vh;
+  padding:40px 0;
+}
+
+.hero{max-width:900px;margin:0 auto}
+.hero .card{padding:40px;border-radius:16px}
+.hero h1{font-size:2.4rem;margin-bottom:0.5rem}
+.hero p{color:var(--muted);font-size:1.05rem}

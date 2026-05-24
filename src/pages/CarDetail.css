@@ -1,0 +1,23 @@
+:root{--bg:#0b0f14;--card:#1b2226;--text:#f5f2ee;--muted:#9aa3ad;--accent:#cba135}
+.detail-page{min-height:80vh;padding:40px 0}
+.detail-card{max-width:880px;margin:0 auto;padding:26px;border-radius:14px}
+
+.detail-card .card{padding:20px;border-radius:12px}
+.detail-card h1,.detail-card h2{color:var(--text);margin-bottom:12px}
+.detail-card input,.detail-card textarea{width:100%;padding:0.6rem;margin-bottom:0.6rem;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text)}
+.detail-card select{width:100%;padding:0.6rem;margin-bottom:0.6rem;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text)}
+.detail-card textarea{min-height:120px}
+
+.detail-card .btn{background:var(--accent);color:white;padding:0.7rem 0.9rem;border-radius:10px;border:none;cursor:pointer}
+.detail-card .btn.btn-outline{background:transparent;border:1px solid rgba(255,255,255,0.08);color:var(--text)}
+.detail-card .btn + .btn{margin-left:8px}
+
+.actions{margin-top:18px}
+.actions button{margin-right:0.5rem;padding:0.5rem 0.7rem;border-radius:8px;border:none}
+.actions .primary{background:var(--accent);color:white}
+.actions .danger{background:var(--danger);color:white}
+
+.card-footer{display:flex;justify-content:space-between;align-items:center;margin-top:18px}
+.card-footer .footer-left{display:flex;align-items:center}
+.card-footer .footer-right{display:flex;align-items:center}
+.owner-actions{margin-right:auto}

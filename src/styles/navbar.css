@@ -1,0 +1,11 @@
+:root{--nav-h:66px}
+.navbar{display:flex;align-items:center;justify-content:space-between;height:var(--nav-h);gap:12px}
+.nav-left{display:flex;align-items:center;gap:14px}
+.brand{font-weight:600;color:var(--text);font-size:1.1rem}
+.nav-links{display:flex;align-items:center;gap:10px}
+.nav-links a{color:var(--muted);text-decoration:none;padding:8px 10px;border-radius:8px}
+.nav-links a:hover{background:var(--glass);color:var(--text)}
+.nav-actions{display:flex;align-items:center;gap:8px}
+.avatar{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:600}
+.nav-username{color:var(--muted);font-size:0.95rem}
+.nav-btn{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--text);padding:8px 10px;border-radius:8px}

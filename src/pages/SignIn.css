@@ -1,0 +1,8 @@
+:root{--bg:#0b0f14;--card:#1b2226;--text:#f5f2ee;--muted:#9aa3ad;--accent:#cba135}
+.auth-page{min-height:80vh;padding:40px 0}
+.auth-center{max-width:360px;margin:0 auto}
+.auth-card{background:transparent;padding:20px}
+.auth-card .card{padding:20px;border-radius:12px}
+.auth-card input{width:100%;padding:0.6rem;margin-bottom:0.6rem;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text)}
+.auth-card button{width:100%;padding:0.7rem;border-radius:10px;border:none}
+.muted{color:var(--muted);font-size:0.95rem}
